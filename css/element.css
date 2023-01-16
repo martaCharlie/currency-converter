@@ -1,0 +1,9 @@
+.element {
+    width:800px;
+    height: 400px;
+    overflow: auto;
+    resize: both;
+    background-image: url("../images/money1.png");
+    background-size: cover;
+    background-position: center;
+}
