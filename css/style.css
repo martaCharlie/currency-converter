@@ -11,17 +11,19 @@ html {
    align-items: center;
    justify-content: center;
     text-align: center;
-   min-height: 80vh;
-   background-image: url(../images/money2.jfif);
+    margin-top: 100px;
+   background-color: white;
    background-size: cover;
    background-position: center;
+   border-radius: 15px 15px 0 0;
+   box-shadow: 0 0 30px black;
 }
 
 .body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: bisque;
+    background-image: url(../images/money2.jfif);
     background-size: cover;
 
 }
@@ -36,8 +38,8 @@ html {
 
 .form__header {
     text-transform: uppercase;
-    color: bisque;
-    background-color: rgb(82, 66, 73);
+    color: black;
+    background-color: grey;
 }
 
 .form__button {
@@ -55,7 +57,6 @@ html {
     width: 150px;
     margin-right: 10px;
     color: black;
-    background-color: bisque;
 }
 
 .form-field {
@@ -72,5 +73,4 @@ html {
 
 .js-result {
     color: black;
-    background-color: bisque;
 }
