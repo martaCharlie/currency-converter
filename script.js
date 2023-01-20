@@ -1,4 +1,4 @@
-
+{
 const calculateResult = (amount, currency) => {
     const rateEUR = 4.69;
     const rateGBR = 5.33;
@@ -42,3 +42,5 @@ const init = () => {
     formElement.addEventListener("submit", onFormSubmit); 
 };
 init();
+
+}
